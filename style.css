@@ -1,32 +1,32 @@
 :root {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 @font-face {
-    font-family: 'Street';
-    src: url('font/street.otf') ;
+	font-family: 'Street';
+	src: url('font/street.otf');
 }
 
 body {
-    background-image: url('img/fondo2.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    font-family: 'Street', sans-serif;
+	background-image: url('img/fondo2.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	font-family: 'Street', sans-serif;
 }
 
 h1 {
-    color: crimson;
-    font-size: 46px;
-    text-align: center;
+	color: crimson;
+	font-size: 46px;
+	text-align: center;
 }
 
 h2 {
-    color: crimson;
-    font-size: 28px;
-    text-align: center;
+	color: crimson;
+	font-size: 28px;
+	text-align: center;
 }
 
 /* ==========================================================================
@@ -34,35 +34,34 @@ h2 {
    ========================================================================== */
 
 table {
-    width: 600px;
-    height: 800px;
-    border: 10px outset rgb(237, 175, 5);
-    border-radius: 10px;
-    background-color: black;
-    text-align: center;
-    margin: auto;
-    
+	width: 600px;
+	height: 800px;
+	border: 10px outset rgb(237, 175, 5);
+	border-radius: 10px;
+	background-color: black;
+	text-align: center;
+	margin: auto;
 }
 
 td {
-    width: 40px;
-    height: 45px;
-    border: 2px solid grey;
-    border-radius: 10px;
-    font-size: 18px;
-    font-weight: bold;
-    color: darkorange;
-    text-align: center;
-    vertical-align: middle;
+	width: 40px;
+	height: 45px;
+	border: 2px solid grey;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	color: darkorange;
+	text-align: center;
+	vertical-align: middle;
 }
 
 #cabecera {
-    background-image: url('img/fondocabecera.jpg');
-    background-size: cover;
-    color: whitesmoke;
-    font-size: 40px;
-    opacity: 0.5;
-    margin: 0 auto;
+	background-image: url('img/fondocabecera.jpg');
+	background-size: cover;
+	color: whitesmoke;
+	font-size: 40px;
+	opacity: 0.5;
+	margin: 0 auto;
 }
 
 /* ==========================================================================
@@ -70,58 +69,57 @@ td {
    ========================================================================== */
 
 form {
-    width: 600px;
-    height: 1100px;
-    border: 10px outset rgb(237, 175, 5);
-    border-radius: 10px;
-    background-color: black;
-    color: white;
-    font-family: Verdana, sans-serif;
-    font-size: 16px;
-    margin: auto;
+	width: 600px;
+	height: 1100px;
+	border: 10px outset rgb(237, 175, 5);
+	border-radius: 10px;
+	background-color: black;
+	color: white;
+	font-family: Verdana, sans-serif;
+	font-size: 16px;
+	margin: auto;
 }
 
 fieldset {
-    border: 1px solid white;
-    padding: 10px;
-    margin: 20px 5px 20px 5px;
+	border: 1px solid white;
+	padding: 10px;
+	margin: 20px 5px 20px 5px;
 }
 
 legend {
-    font-size: 14px;
-    color: rgb(237, 175, 5);
-    margin: 5px;
+	font-size: 14px;
+	color: rgb(237, 175, 5);
+	margin: 5px;
 }
 
 label {
-    display: block;
-    margin-bottom: 3px;
+	display: block;
+	margin-bottom: 3px;
 }
 
-label[for=personaje]{
-    display: inline;
+label[for='personaje'] {
+	display: inline;
 }
 
 input[type='radio'] {
-    float: left;
+	float: left;
 }
 
 textarea {
-    width: 560px;
-    height:100px;
+	width: 560px;
+	height: 100px;
 }
-
 
 input[type='submit'],
 input[type='reset'] {
-    border: 1px solid crimson;
-    background-color: crimson;
-    font-family: 'Street', sans-serif;
-    font-size: 18px;
-    color: white;
-    width: 200px;
-    height: 50px;
-    border-radius: 5px;
-    margin-left: 65px;
-    margin-bottom: 10px;
+	border: 1px solid crimson;
+	background-color: crimson;
+	font-family: 'Street', sans-serif;
+	font-size: 18px;
+	color: white;
+	width: 200px;
+	height: 50px;
+	border-radius: 5px;
+	margin-left: 65px;
+	margin-bottom: 10px;
 }
