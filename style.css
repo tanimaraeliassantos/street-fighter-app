@@ -50,3 +50,63 @@ td {
     vertical-align: middle;
 }
 
+/* ==========================================================================
+   ESTILOS DEL FORMULARIO
+   ========================================================================== */
+
+   form {
+    width: 600px;
+    height: 1100px;
+    border: 10px outset rgb(237, 175, 5);
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    margin: auto;
+}
+
+fieldset {
+    border: 1px solid white;
+    padding: 10px;
+    margin: 20px 5px 20px 5px;
+}
+
+legend {
+    font-size: 14px;
+    color: rgb(237, 175, 5);
+    margin: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 3px;
+}
+
+label[for=personaje]{
+    display: inline;
+}
+
+input[type='radio'] {
+    float: left;
+}
+
+textarea {
+    width: 560px;
+    height:100px;
+}
+
+
+input[type='submit'],
+input[type='reset'] {
+    border: 1px solid crimson;
+    background-color: crimson;
+    font-family: 'Street', sans-serif;
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
