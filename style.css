@@ -9,5 +9,16 @@
     src: url('font/street.otf') ;
 }
 
+body {
+    background-image: url('img/fondo2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Street', sans-serif;
+}
 
-
+h1 {
+    color: crimson;
+    font-size: 46px;
+    text-align: center;
+}
