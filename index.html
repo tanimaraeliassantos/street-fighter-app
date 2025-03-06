@@ -7,32 +7,107 @@
 		<link rel="stylesheet" href="style.css" />
 		<link rel="icon" href="img/arcade.png" type="image/png" />
 	</head>
-	<body><h1>To live is to fight, to fight is to live!</h1>
-        <table>
-            <tr><td id="cabecera" colspan="4">Streetfighter</td></tr>
-            <tr>
-                <td>Ken<img src="img/ken.png" alt="Ken" /></td>
-                <td>Chun Li<img src="img/ChunLi.png" alt="Chun Li" /></td>
-                <td>Zanghef<img src="img/Zangief.png" alt="Zangief" /></td>
-                <td>Dhalsim<img src="img/Dhalsim.png" alt="Dhalsim" /></td>
-            </tr>
-            <tr>
-                <td>Ryu<img src="img/Ryu.png" alt="Ryu" /></td>
-                <td>E Honda<img src="img/EHonda.png" alt="E Honda" /></td>
-                <td>Blanka<img src="img/Blanka.png" alt="Blanka" /></td>
-                <td>Guille<img src="img/Guille.png" alt="Guille" /></td>
-            </tr>
-            <tr>
-                <td>T Hank<img src="img/THawk.png" alt="T Hank" /></td>
-                <td>Feilong<img src="img/Feilong.png" alt="Feilong" /></td>
-                <td>Dee Jay<img src="img/DeeJay.png" alt="Dee Jay" /></td>
-                <td>Cammy<img src="img/Cammy.png" alt="Cammy" /></td>
-            </tr>
-            <tr>
-                <td>Balrog<img src="img/Balrog.png" alt="Balrog" /></td>
-                <td>Vega<img src="img/Vega.png" alt="Vega" /></td>
-                <td>Sagat<img src="img/Sagat.png" alt="Sagat" /></td>
-                <td>M Bison<img src="img/MBison.png" alt="M Bison" /></td>
-            </tr>
-    </table></body>
+	<body>
+		<h1>To live is to fight, to fight is to live!</h1>
+		<table>
+			<tr>
+				<td id="cabecera" colspan="4">Streetfighter</td>
+			</tr>
+			<tr>
+				<td>Ken<img src="img/ken.png" alt="Ken" /></td>
+				<td>Chun Li<img src="img/ChunLi.png" alt="Chun Li" /></td>
+				<td>Zanghef<img src="img/Zangief.png" alt="Zangief" /></td>
+				<td>Dhalsim<img src="img/Dhalsim.png" alt="Dhalsim" /></td>
+			</tr>
+			<tr>
+				<td>Ryu<img src="img/Ryu.png" alt="Ryu" /></td>
+				<td>E Honda<img src="img/EHonda.png" alt="E Honda" /></td>
+				<td>Blanka<img src="img/Blanka.png" alt="Blanka" /></td>
+				<td>Guille<img src="img/Guille.png" alt="Guille" /></td>
+			</tr>
+			<tr>
+				<td>T Hank<img src="img/THawk.png" alt="T Hank" /></td>
+				<td>Feilong<img src="img/Feilong.png" alt="Feilong" /></td>
+				<td>Dee Jay<img src="img/DeeJay.png" alt="Dee Jay" /></td>
+				<td>Cammy<img src="img/Cammy.png" alt="Cammy" /></td>
+			</tr>
+			<tr>
+				<td>Balrog<img src="img/Balrog.png" alt="Balrog" /></td>
+				<td>Vega<img src="img/Vega.png" alt="Vega" /></td>
+				<td>Sagat<img src="img/Sagat.png" alt="Sagat" /></td>
+				<td>M Bison<img src="img/MBison.png" alt="M Bison" /></td>
+			</tr>
+		</table>
+		<h2>Formulario de inscripción para jugar a Street Fighter</h2>
+		<form action="#" method="post">
+			<fieldset>
+				<legend>Datos Personales</legend>
+				<label for="nombre">Nombre:</label>
+				<input type="text" id="nombre" name="nombre" />
+				<label for="apellidos">Apellidos:</label>
+				<input type="text" id="apellidos" name="apellidos" />
+				<label for="direccion">Dirección Postal:</label>
+				<input type="text" id="direccion" name="calle" placeholder="Calle" />
+				<input type="text" id="direccion" name="numero" placeholder="N°" />
+				<input type="text" id="direccion" name="piso" placeholder="Piso" />
+				<input
+					type="text"
+					id="direccion"
+					name="postcode"
+					placeholder="Cód Postal"
+				/>
+				<input type="text" id="direccion" name="ciudad" placeholder="Ciudad" />
+				<label for="nick">Nick:</label>
+				<input type="text" id="nick" name="nick" />
+				<label for="email">Correo Electrónico:</label>
+				<input type="email" id="email" name="email" />
+			</fieldset>
+			<fieldset class="form-sexo">
+				<legend>Sexo Usuario</legend>
+				<input type="radio" id="hombre" name="sexo" value="hombre" />
+				<label for="hombre">Hombre</label>
+				<input type="radio" id="mujer" name="sexo" value="mujer" />
+				<label for="mujer">Mujer</label>
+				<input type="radio" id="noid" name="sexo" value="noid" />
+				<label for="noid">Prefiero no decir</label>
+			</fieldset>
+			<fieldset>
+				<label for="fechaNacimiento">Fecha de Nacimiento</label>
+				<input type="date" id="fechaNacimiento" name="fechaNacimiento" />
+			</fieldset>
+			<fieldset>
+				<legend>Personajes</legend>
+				<label for="personaje">Seleccciona el personaje: </label>
+				<select id="personaje" name="personaje">
+					<option value="ken">Ken</option>
+					<option value="chunli">Chun Li</option>
+					<option value="zanghef">Zanghef</option>
+					<option value="dhalsim">Dhalsim</option>
+					<option value="ryu">Ryu</option>
+					<option value="ehonda">E Honda</option>
+					<option value="blanka">Blanka</option>
+					<option value="guille">Guille</option>
+					<option value="thank">T Hank</option>
+					<option value="feilong">Feilong</option>
+					<option value="deejay">Dee Jay</option>
+					<option value="cammy">Cammy</option>
+					<option value="balrog">Balrog</option>
+					<option value="vega">Vega</option>
+					<option value="sagat">Sagat</option>
+					<option value="mbison">M Bison</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<legend>Comentarios</legend>
+				<textarea
+					id="comentarios"
+					name="comentarios"
+					rows="2"
+					cols="10"
+				></textarea>
+			</fieldset>
+			<input type="submit" value="Enviar" />
+			<input type="reset" value="Borrar" />
+		</form>
+	</body>
 </html>
