@@ -56,6 +56,15 @@ td {
     vertical-align: middle;
 }
 
+#cabecera {
+    background-image: url('img/fondocabecera.jpg');
+    background-size: cover;
+    color: whitesmoke;
+    font-size: 40px;
+    opacity: 0.5;
+    margin: 0 auto;
+}
+
 /* ==========================================================================
    ESTILOS DEL FORMULARIO
    ========================================================================== */
